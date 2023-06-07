@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css" /> 
+
+</head>
+<body>
+    <div class="calculator">
+        <div class="row1">
+            <div class="resut">
+                <input type="text" id="result" style="width: 100%; height: 60%;" readonly>
+            </div>
+        </div>
+        <div class="numrows">
+            <div class="button" onclick="appendValue(this)">1</div>
+            <div class="button" onclick="appendValue(this)">2</div>
+            <div class="button" onclick="appendValue(this)">3</div>
+            <div class="button" onclick="appendValue(this)">+</div>
+        </div>
+        <div class="numrows">
+            <div class="button" onclick="appendValue(this)">4</div>
+            <div class="button" onclick="appendValue(this)">5</div>
+            <div class="button" onclick="appendValue(this)">6</div>
+            <div class="button" onclick="appendValue(this)">-</div>
+        </div>
+        <div class="numrows">
+            <div class="button" onclick="appendValue(this)">7</div>
+            <div class="button" onclick="appendValue(this)">8</div>
+            <div class="button" onclick="appendValue(this)">9</div>
+            <div class="button" onclick="appendValue(this)">*</div>
+        </div>
+        <div class="numrows">
+            
+            <div class="button" onclick="appendValue(this)">0</div>
+            <div class="button" style="width: 50%; font-size: larger;" onclick="doCalc(this)"> = </div>
+            <div class="button" id="output" onclick="appendValue(this)">/</div>
+        </div>
+ 
+    </div>
+    <footer class="footer">
+        <span>@jenaro.pro 2023 Design by Jenaro</span>
+    </footer>
+    <script src="myscript.js">
+     
+        
+    </script>
+</body>
+</html>
